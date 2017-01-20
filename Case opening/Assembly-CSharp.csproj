@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0FFC9216-E1B4-6E3F-9A65-832482645E4E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\BravoDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\BreakoutDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\CSGOSkins.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\CSRandom.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\CSShopDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\CacheDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\Chroma2Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\Chroma3Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\ChromaDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\CobblestoneDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\Dust2Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\FalchionDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\Gamma2Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\GammaDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\GlovesDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\GodsandMonstersDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\HuntsmanDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\MirageDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\NukeDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\OverpassDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\PhoenixDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\PremiumDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\RevolverDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\ShadowDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\UltraPremiumDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\VanguardDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\WOffensiveDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\Weapon2Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\Weapon3Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\WeaponDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\WildfireDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\eSports2013Database.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\eSportsSummerDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\CSGOScripts\eSportsWinterDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\ClassicDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\EDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\GGDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\GGSave.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\GTDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSBuy.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSBuyInfo.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSCards.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSRandom.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSSave.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSSelect.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSSell.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSShop.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\HSShopSelect.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\LDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\MSGDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\HSScripts\WDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLDelete.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLRandom.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLSDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLSRandom.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLSSave.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLSave.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLShop.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLShopDatabase.cs" />
+     <Compile Include="Assets\Scripts\Database+Random\LOLScripts\LOLSkins.cs" />
+     <Compile Include="Assets\Scripts\HSFlipper.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CSBuyInfo.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CSGOCoin.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CSInventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CSSelect.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CSShop.cs" />
+     <Compile Include="Assets\Scripts\Inventory\CSShopSelect.cs" />
+     <Compile Include="Assets\Scripts\Inventory\HSCoin.cs" />
+     <Compile Include="Assets\Scripts\Inventory\HSInfo.cs" />
+     <Compile Include="Assets\Scripts\Inventory\HSInventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLBuy.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLBuyInfo.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLCoin.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLInfo.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLInventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLSelect.cs" />
+     <Compile Include="Assets\Scripts\Inventory\LOLSell.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\BackButton.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\BackScript.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\CSGOScript.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\Case.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\HSLoader.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\HSOpenChange.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\HSSceneChanger.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\HearthstoneScript.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\LOLLoader.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\LOLScript.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\MenuScript.cs" />
+     <Compile Include="Assets\Scripts\SceneButtonScript\SceneChanger.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/misa PC/Documents/Case opening/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
